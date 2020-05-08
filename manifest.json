@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
     "name": "PinterestZoomImages",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "content_scripts": [
         {
             "matches": ["https://br.pinterest.com/"],
-            "css": ["public/styles/style.css"],
-            "js": ["public/javaScripts/content.js"]
+            "css": ["src/styles/style.css"],
+            "js": ["src/javaScripts/content.js"]
         }
     ]
 }
